@@ -1,5 +1,18 @@
-﻿.idea
-.bin
-.gitignore
-.obj
-.config
+﻿# Ignore build directories
+bin/
+obj/
+
+# Ignore IDE settings
+.idea/
+*.DotSettings.user
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore by default any system files like DS_Store (MacOS) or Thumbs.db (Windows)
+.DS_Store
+Thumbs.db
