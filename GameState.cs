@@ -11,7 +11,8 @@ namespace Snake
         public Direction Dir { get; private set; }
         public Direction Dir2 { get; private set; }
         public int Score { get; private set; }
-        public bool GameOver { get; private set; }
+        public bool GameOver1 { get; private set; }
+        public bool GameOver2 { get; private set; }
 
         private readonly LinkedList<Direction> dirChanges = new LinkedList<Direction>();
         private readonly LinkedList<Direction> dirChanges2 = new LinkedList<Direction>();
@@ -158,9 +159,13 @@ namespace Snake
             GridValue hit1 = WillHit(newHeadPos1, snakePositions);
             GridValue hit2 = WillHit(newHeadPos2, snakePositions2);
 
-            if (hit1 == GridValue.Outside || hit1 == GridValue.Snake || hit2 == GridValue.Outside || hit2 == GridValue.Snake)
+            if (hit1 == GridValue.Outside || hit1 == GridValue.Snake)
             {
-                GameOver = true;
+                GameOver1 = true;
+            }
+            else if (hit2 == GridValue.Outside || hit2 == GridValue.Snake)
+            {
+                GameOver2 = true;
             }
             else
             {

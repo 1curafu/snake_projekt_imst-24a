@@ -67,7 +67,7 @@ namespace Snake
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            if (gameState.GameOver)
+            if (gameState.GameOver1 || gameState.GameOver2)
             {
                 return;
             }
@@ -103,7 +103,7 @@ namespace Snake
 
         private async Task GameLoop()
         {
-            while (!gameState.GameOver)
+            while (!gameState.GameOver1 && !gameState.GameOver2)
             {
                 await Task.Delay(100);
                 gameState.Move();
@@ -214,7 +214,14 @@ namespace Snake
             await DrawDeadSnake();
             await Task.Delay(1000);
             Overlay.Visibility = Visibility.Visible;
-            OverlayText.Text = "PRESS ANY KEY TO START";
+            if (gameState.GameOver1)
+            {
+                OverlayText.Text = "Snake 2 wins! PRESS ANY KEY TO START";
+            }
+            else
+            {
+                OverlayText.Text = "Snake 1 wins! PRESS ANY KEY TO START";
+            }
         }
     }
 }
