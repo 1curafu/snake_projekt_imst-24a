@@ -189,12 +189,27 @@ namespace Snake
 
         private async Task DrawDeadSnake()
         {
-            List<Position> positions = new List<Position>(gameState.SnakePositions());
+            List<Position> positions1 = new List<Position>(gameState.SnakePositions());
+            List<Position> positions2 = new List<Position>(gameState.SnakePositions2());
 
-            for (int i = 0; i < positions.Count; i++)
+            // Handle snake 1 (losing snake if game over for snake 2)
+            for (int i = 0; i < positions1.Count; i++)
             {
-                Position pos = positions[i];
-                ImageSource source = (i == 0) ? Images.DeadHead : Images.DeadBody;
+                Position pos = positions1[i];
+                ImageSource source = (gameState.GameOver2) ? 
+                    (i == 0 ? Images.DeadHead : Images.DeadBody) 
+                    : (i == 0 ? Images.Head : Images.Body);
+                gridImages[pos.Row, pos.Col].Source = source;
+                await Task.Delay(50);
+            }
+
+            // Handle snake 2 (losing snake if game over for snake 1)
+            for (int i = 0; i < positions2.Count; i++)
+            {
+                Position pos = positions2[i];
+                ImageSource source = (gameState.GameOver1) ? 
+                    (i == 0 ? Images.DeadHead : Images.DeadBody) 
+                    : (i == 0 ? Images.Head : Images.Body);
                 gridImages[pos.Row, pos.Col].Source = source;
                 await Task.Delay(50);
             }
