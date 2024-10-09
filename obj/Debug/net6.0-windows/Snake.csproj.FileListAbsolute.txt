@@ -83,3 +83,25 @@ C:\Users\icura\RiderProjects\end projekt\obj\Debug\net6.0-windows\refint\Snake.d
 C:\Users\icura\RiderProjects\end projekt\obj\Debug\net6.0-windows\Snake.pdb
 C:\Users\icura\RiderProjects\end projekt\obj\Debug\net6.0-windows\Snake.genruntimeconfig.cache
 C:\Users\icura\RiderProjects\end projekt\obj\Debug\net6.0-windows\ref\Snake.dll
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\bin\Debug\net6.0-windows\Snake.exe
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\bin\Debug\net6.0-windows\Snake.deps.json
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\bin\Debug\net6.0-windows\Snake.runtimeconfig.json
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\bin\Debug\net6.0-windows\Snake.dll
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\bin\Debug\net6.0-windows\Snake.pdb
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\Snake_MarkupCompile.cache
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\Snake_MarkupCompile.lref
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\App.baml
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\Snake.g.resources
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\Snake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\Snake.AssemblyInfoInputs.cache
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\Snake.AssemblyInfo.cs
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\Snake.csproj.CoreCompileInputs.cache
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\Snake.sourcelink.json
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\Snake.dll
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\refint\Snake.dll
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\Snake.pdb
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\Snake.genruntimeconfig.cache
+C:\Users\icura\RiderProjects\snake1_projekt_imst-24a\obj\Debug\net6.0-windows\ref\Snake.dll

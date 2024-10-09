@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\icura\\RiderProjects\\end projekt\\Snake.csproj",
+      "projectUniqueName": "C:\\Users\\icura\\RiderProjects\\snake1_projekt_imst-24a\\Snake.csproj",
       "projectName": "Snake",
-      "projectPath": "C:\\Users\\icura\\RiderProjects\\end projekt\\Snake.csproj",
+      "projectPath": "C:\\Users\\icura\\RiderProjects\\snake1_projekt_imst-24a\\Snake.csproj",
       "packagesPath": "C:\\Users\\icura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\icura\\RiderProjects\\end projekt\\obj\\",
+      "outputPath": "C:\\Users\\icura\\RiderProjects\\snake1_projekt_imst-24a\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
