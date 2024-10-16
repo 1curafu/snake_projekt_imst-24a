@@ -10,7 +10,9 @@ namespace Snake
         public GridValue[,] Grid { get; }
         public Direction Dir { get; private set; }
         public Direction Dir2 { get; private set; }
-        public int Score { get; private set; }
+        
+        public int Score1 { get; private set; }
+        public int Score2 { get; private set; }
         public bool GameOver1 { get; private set; }
         public bool GameOver2 { get; private set; }
 
@@ -172,7 +174,7 @@ namespace Snake
                 if (hit1 == GridValue.Food)
                 {
                     AddHead(newHeadPos1, snakePositions);
-                    Score++;
+                    Score1++;
                     AddFood();
                 }
                 else
@@ -184,7 +186,7 @@ namespace Snake
                 if (hit2 == GridValue.Food)
                 {
                     AddHead(newHeadPos2, snakePositions2);
-                    Score++;
+                    Score2++;
                     AddFood();
                 }
                 else

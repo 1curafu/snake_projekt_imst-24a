@@ -140,7 +140,7 @@ namespace Snake
         {
             DrawGrid();
             DrawSnakeHead();
-            ScoreText.Text = $"Score {gameState.Score}";
+            ScoreText.Text = $"Score1: {gameState.Score1} Score2: {gameState.Score2}";
         }
 
         private void DrawGrid()
